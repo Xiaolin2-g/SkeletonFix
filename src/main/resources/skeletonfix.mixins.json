@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.xiaolin.skeletonfix.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "SkeletonFixMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

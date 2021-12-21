@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "skeletonfix",
+  "version": "${version}",
+
+  "name": "Skeleton Aiming Fix",
+  "description": "This mod fixes MC-121706, related to Skeletons not looking properly at the player when targeting them.",
+  "authors": [
+    "Xiaolin2"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "GNU GENERAL PUBLIC LICENSE 3",
+  "icon": "assets/skeletonfix/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.xiaolin.skeletonfix.SkeletonFix"
+    ]
+  },
+  "mixins": [
+    "skeletonfix.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
